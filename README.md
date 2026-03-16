@@ -35,4 +35,18 @@ The gold layer contains business‑ready tables modeled as a star schema, with a
 
 <img width="1121" height="632" alt="6" src="https://github.com/user-attachments/assets/a9283eca-dad2-4114-b7cc-c715b77d7838" />
 
+## Tech stack
+	•	Azure Event Hubs (event ingestion, pub/sub, producer–consumer patterns)
+	•	Azure Data Factory (orchestrated pipelines from GitHub to ADLS Gen2)
+	•	Azure Data Lake Storage Gen2 (raw/bronze data lake storage)
+	•	Azure Databricks (PySpark, Spark Structured Streaming, declarative pipelines)
+	•	Medallion architecture: bronze, silver, gold layers, OBT and dimensional models
+	•	Jinja‑driven transformations and metadata‑driven pipelines
+## Key skills learned
+	•	Designing event‑driven architectures using Azure Event Hubs with pub/sub and producer–consumer patterns.
+	•	Building metadata‑driven ingestion and transformation pipelines with Azure Data Factory and Databricks.
+	•	Implementing a medallion architecture (bronze, silver, gold) with both batch and streaming data.
+	•	Developing PySpark Structured Streaming jobs that unify initial loads and real‑time events into curated OBTs.
+	•	Modeling data with star schema, dimensions, facts, and slowly changing dimensions for analytics.
+
 
